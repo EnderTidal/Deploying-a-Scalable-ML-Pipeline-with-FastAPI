@@ -1,0 +1,21 @@
+=== CI/CD Simulation - All Tests Passing ===
+
+=== Flake8 Linting ===
+0
+0 syntax errors found ✓
+
+=== PyTest Unit Tests ===
+============================= test session starts ==============================
+platform linux -- Python 3.11.0rc1, pytest-8.3.2, pluggy-1.6.0 -- /usr/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /home/ubuntu/Deploying-a-Scalable-ML-Pipeline-with-FastAPI
+plugins: anyio-4.11.0
+collecting ... collected 5 items
+
+test_ml.py::test_train_model_returns_correct_type PASSED                 [ 20%]
+test_ml.py::test_compute_model_metrics_returns_expected_values PASSED    [ 40%]
+test_ml.py::test_inference_returns_predictions PASSED                    [ 60%]
+test_ml.py::test_save_and_load_model PASSED                              [ 80%]
+test_ml.py::test_data_shape_after_processing PASSED                      [100%]
+
+============================== 5 passed in 4.67s ===============================
