@@ -1,0 +1,5 @@
+GET Status Code: 200
+GET Response: {'message': 'Welcome to the Census Income Prediction API!'}
+
+POST Status Code: 200
+POST Response: {'result': '<=50K'}
